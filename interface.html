@@ -1,0 +1,93 @@
+<html>
+  <title>AP free bus</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    #ap {
+      height: 100px;
+      border-radius: 100px;
+    }
+    /* @font-face {
+      font-family: DancingScript;
+      src: url(C:\Users\naray\Desktop\javascript\Ap bus scheme\DancingScript.ttf);
+    } */
+    .heading {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      background: linear-gradient( rgb(170, 170, 234), pink);
+      align-content: center;
+      margin-top: -10px;
+      border-radius: 30px;
+      box-shadow: 0px 0px 50px 10px blue;
+      /* font-family: DancingScript; */
+    }
+    #headtext{
+       background: linear-gradient(to top left,aqua, blue, red, orange);
+      color: transparent;
+      -webkit-background-clip: text;
+    }
+    .baground {
+      height: 500px;
+      width: 600px;
+      background: linear-gradient(  aqua, blue, white);
+      display: flex;
+    }
+    #bus {
+      height: 300px;
+      width: 350px;
+    }
+
+    .background {
+      display: flex;
+      flex-flow: row;
+      justify-content: space-evenly;
+      background:repeating-linear-gradient(  to bottom right,orange, white, aqua, white,orange);
+      align-content: center;
+      height: 400;
+      width: 600px;
+      border-radius: 30px;
+      margin-top: 50px;
+      margin-left: 500px;
+      box-shadow: 0px 0px 50px 10px grey;
+    }
+    .content {
+      margin-top: 90px;
+    }
+    body {
+      /* background-image: url("https://th.bing.com/th/id/OIP.y3MlsRfHYwZ2XCu7xlOm2AHaEK?w=321&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"); */
+      background: lightblue;
+    }
+  </style>
+  <body>
+    <div class="heading">
+      <div class="ap-logo">
+        <img
+          id="ap"
+          src="C:\Users\naray\Desktop\javascript\Ap-bus-scheme\ap-logo-removebg-preview.png"
+        />
+      </div>
+      <h1 style="padding-right: 300px" id="headtext">AP FREE BUS SCHEME FOR ELDERS</h1>
+    </div>
+    <div class="background">
+      <div class="busimg">
+        <img
+          id="bus"
+          src="C:\Users\naray\Pictures\volvo-removebg-preview.png"
+        />
+      </div>
+      <div class="content">
+        <input type="checkbox" id="seat" />Seat is available?<br />
+        <input type="checkbox" id="age" />your age above 50 years?<br />
+        <input type="checkbox" id="adhar" />Do you have Adhar card?<br />
+<a href="C:\Users\naray\Desktop\javascript\Ap-bus-scheme\submission.html">
+        <input type="submit" id="button" /><br />   </a>
+        <h3><p id="status"></p></h3>
+      </div>
+    </div>
+
+   
+    <script src="script.js"></script></a>
+  </body>
+</html>
